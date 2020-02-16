@@ -834,6 +834,7 @@ footer {
         z-index: 999;
         width: 122px;
         padding: 6px;
+        margin-right: 20px;
     }
     .nav-prod {
         position: relative;
