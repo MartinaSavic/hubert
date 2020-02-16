@@ -641,7 +641,7 @@ footer {
         margin: 0 auto;
         height: 305px;
     }
-    .col-sm-6 {
+    .cont-prod .col-sm-6 {
         width: 50%;
         float: left;
     }
@@ -726,10 +726,7 @@ footer {
     }
     /*-----------------------------PRODUCTS 768---------------------
   ------------------------------------*/
-  .cont-prod .col-sm-6 {
-    max-width: 49%;
-    float: left;
-}
+
     .cont-prod {
         position: relative;
     }
