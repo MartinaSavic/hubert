@@ -117,7 +117,16 @@ body {
     border: none;
 }
 
-
+.h1 {
+    font-family: 'Pinyon Script';
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    font-size: 8vh;
+    max-width: 50%;
+    opacity: .7;
+}
 /*---------------------------------parallax------------
 ------------------------*/
 
@@ -143,6 +152,7 @@ section {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 .bg-2 {
@@ -521,6 +531,7 @@ footer {
     text-transform: uppercase;
     font-size: 0.7em;
     color: #fff !important;
+    padding: 4px 0;
 }
 
 .navbar-nav .li-prod a:hover {
@@ -630,6 +641,10 @@ footer {
         margin: 0 auto;
         height: 305px;
     }
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
 }
 
 
@@ -711,6 +726,10 @@ footer {
     }
     /*-----------------------------PRODUCTS 768---------------------
   ------------------------------------*/
+  .cont-prod .col-sm-6 {
+    max-width: 49%;
+    float: left;
+}
     .cont-prod {
         position: relative;
     }
@@ -782,7 +801,19 @@ footer {
         width: 100%;
         border: none;
     }
+    .h1 {
+        font-family: 'Pinyon Script';
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        font-size: 15vh;
+        max-width: 50%;
+        opacity: .8;
+    }
     /*--------------------------------PRODUCTS---------------*/
+
+  
     .prod-collapse.collapse {
         display: block !important;
     }
