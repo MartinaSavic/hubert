@@ -543,7 +543,7 @@ footer {
 }
 
 .fruit {
-    width: 165px;
+    width: 110px;
     display: block;
     margin: 0 auto;
     padding-top: 30px;
@@ -636,15 +636,22 @@ footer {
     background-color: transparent;
 }
 
+@media (max-width:768px) and (orientation: landscape) {
+    .fruit {
+        display: none;
+    }
+}
+
 @media (min-width:411px) {
     .drops {
         margin: 0 auto;
         height: 305px;
     }
-    .prod-pres .col-sm-6 {
+    /* .prod-pres .col-sm-6 {
         width: 50%;
         float: left;
-    }
+    } */
+
 }
 
 
@@ -755,8 +762,8 @@ footer {
         height: 100vh;
     }
     .fruit {
-        width: 85%;
-        margin: 20px 30px;
+        width: 50%;
+        /*margin: 20px 30px;*/
         padding-top: 0;
     }
     .fruit-name {
@@ -853,3 +860,4 @@ footer {
 
 
 /*--------------------------------1300---------------*/
+
